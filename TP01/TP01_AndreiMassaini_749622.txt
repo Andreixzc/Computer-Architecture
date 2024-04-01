@@ -1,0 +1,29 @@
+TP01  Arquitetura 01.
+Andrei Massaini - 749622
+ASIC (APPLICATION-SPECIFIC INTEGRATED CIRCUIT): Um circuito integrado projetado para atender a requisitos específicos de uma aplicação particular, sendo desenvolvido sob medida para desempenhar funções dedicadas e otimizadas.
+
+ASSP (APPLICATION-SPECIFIC STANDARD PRODUCT): Um circuito integrado que combina características de ASICs e circuitos integrados padrão para fornecer funções específicas em várias aplicações, sendo pré-configurado e oferecendo recursos especializados.
+
+SPLD (SIMPLE PROGRAMMABLE LOGIC DEVICE): Um dispositivo lógico programável que consiste em um número limitado de blocos lógicos configuráveis, projetado para implementar funções lógicas simples e adequado para aplicações com requisitos lógicos simples ou projetos de pequena escala.
+
+CPLD (COMPLEX PROGRAMMABLE LOGIC DEVICE): Um dispositivo lógico programável que consiste em múltiplos blocos lógicos configuráveis interconectados, oferecendo mais blocos lógicos do que SPLDs e permitindo a implementação de funções lógicas mais complexas.
+
+SOC (SYSTEM-ON-CHIP): Um circuito integrado que integra todos os componentes necessários para executar um sistema completo em um único chip, incluindo processador, memória, interfaces de entrada/saída e outros componentes.
+
+FPGA (FIELD-PROGRAMMABLE GATE ARRAY): Um dispositivo lógico programável que consiste em uma matriz de blocos lógicos configuráveis interconectados, altamente programável e flexível, adequado para uma ampla variedade de aplicações.
+
+
+Dispositivo   Programabilidade   Estrutura           Flexibilidade  
+PROM          Fixa               Fusíveis ou antifusíveis   Baixa 
+PLA           Programável        Matriz de interconexões   Alta 
+PAL           Programável        AND array + OR array       Média 
+
+
+Características        CPLD (Dispositivos Lógicos Programáveis Complexos)   FPGA (Arranjos Lógicos Programáveis em Campo)  
+Complexidade           Baixa a Média                                         Alta 
+Estrutura Interna      Baseado em macrocélulas                               Matriz de blocos lógicos configuráveis 
+Programabilidade       Baseado em EEPROM, mantém a programação após desligar Baseado em SRAM, reprogramação necessária após desligar 
+Tempo de Resposta      Melhor tempo de resposta                              Tempo de resposta não uniforme 
+Flexibilidade          Menos flexibilidade de roteamento                      Alta flexibilidade de roteamento 
+Aplicações             Projetos menores, menor complexidade                   Projetos maiores, maior complexidade  
+
